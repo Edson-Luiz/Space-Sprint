@@ -33,6 +33,16 @@ if(instance_exists(obj_enemy) && !y < obj_enemy.y){
 	}
 }
 
+if(instance_exists(obj_enemy2) && !y < obj_enemy2.y){
+	if(place_meeting(x, y, obj_enemy2)){
+		if(!velocidade_vertical > 0){
+			x = global.checkpoint_x
+			y = global.checkpoint_y
+		}
+		
+	}
+}
+
 if (!chao) {
 	if(velocidade_vertical < 0){
 		sprite_index = spr_player_jump
