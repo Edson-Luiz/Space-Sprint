@@ -10,6 +10,8 @@ vida = 3
 timer = 60
 timer_max = timer
 
+hit = 0
+
 knockback = 10
 
 global.checkpoint_x = x

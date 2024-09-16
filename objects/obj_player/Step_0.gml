@@ -11,6 +11,12 @@ if(abs(velocidade_horizontal) < 0.6){
 
 }
 
+if (hit > 0){
+	hit -= 0.05
+
+
+}
+
 if(velocidade_horizontal < 0){
 	
 	image_xscale = -1
@@ -70,6 +76,7 @@ if(timer >= timer_max){
 					velocidade_horizontal += knockback
 				}
 				vida --
+				hit = 1
 				timer = 0
 			}
 		
@@ -93,6 +100,7 @@ if(timer >= timer_max){
 						velocidade_horizontal += knockback
 					}
 					vida --
+					hit = 1
 					timer = 0
 
 				}
