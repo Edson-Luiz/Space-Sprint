@@ -23,24 +23,13 @@ if(velocidade_horizontal > 0){
 
 }
 
-if(instance_exists(obj_enemy) && !y < obj_enemy.y){
-	if(place_meeting(x, y, obj_enemy)){
-		if(!velocidade_vertical > 0){
-			x = global.checkpoint_x
-			y = global.checkpoint_y
-		}
-		
-	}
-}
 
-if(instance_exists(obj_enemy2) && !y < obj_enemy2.y){
-	if(place_meeting(x, y, obj_enemy2)){
-		if(!velocidade_vertical > 0){
-			x = global.checkpoint_x
-			y = global.checkpoint_y
-		}
-		
-	}
+
+if (vida <= 0){
+	x = global.checkpoint_x
+	y = global.checkpoint_y
+	vida = 3
+	
 }
 
 if (!chao) {
@@ -69,3 +58,48 @@ if(chao && pulando) {
 }
 
 velocidade_horizontal = clamp(velocidade_horizontal, -velocidade_h_max, velocidade_h_max)
+
+if(timer >= timer_max){
+	if(instance_exists(obj_enemy) && !y < obj_enemy.y){
+		if(place_meeting(x, y, obj_enemy)){
+			if(!velocidade_vertical > 0){
+				if(instance_nearest(x, y, obj_enemy).direction = 180){
+					velocidade_horizontal -= knockback
+				}
+				if(instance_nearest(x, y, obj_enemy).direction = 0){
+					velocidade_horizontal += knockback
+				}
+				vida --
+				timer = 0
+			}
+		
+		}
+	}
+
+}else{
+	timer ++
+
+}
+
+if(timer >= timer_max){
+
+	if(instance_exists(obj_enemy2) && !y < obj_enemy2.y){
+			if(place_meeting(x, y, obj_enemy2)){
+				if(!velocidade_vertical > 0){
+					if(instance_nearest(x, y, obj_enemy2).direction = 180){
+						velocidade_horizontal -= knockback
+					}
+					if(instance_nearest(x, y, obj_enemy2).direction = 0){
+						velocidade_horizontal += knockback
+					}
+					vida --
+					timer = 0
+
+				}
+		
+			}
+	}
+}else{
+	timer ++
+
+}

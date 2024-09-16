@@ -6,6 +6,11 @@ velocidade_horizontal = 0
 velocidade_vertical = 0
 velocidade_h_max = 6
 pulo = 9
+vida = 3
+timer = 60
+timer_max = timer
+
+knockback = 10
 
 global.checkpoint_x = x
 global.checkpoint_y = y
