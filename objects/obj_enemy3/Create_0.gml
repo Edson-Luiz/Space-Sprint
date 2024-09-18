@@ -1,0 +1,2 @@
+
+gravidade = .2
