@@ -122,7 +122,7 @@ if(timer >= timer_max){
 				if(instance_nearest(x, y, obj_enemy3).direction = 0){
 					velocidade_horizontal += knockback
 				}
-				vida = 0
+				vida --
 				hit = 1
 				timer = 0
 			}
