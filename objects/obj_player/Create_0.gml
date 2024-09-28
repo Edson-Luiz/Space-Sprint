@@ -1,3 +1,4 @@
+
 velocidade = 0.1
 gravidade = 0.3
 velocidade_chao = velocidade
@@ -16,3 +17,7 @@ knockback = 10
 
 global.checkpoint_x = x
 global.checkpoint_y = y
+
+window_set_fullscreen(true);
+
+

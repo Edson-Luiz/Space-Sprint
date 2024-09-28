@@ -111,3 +111,26 @@ if(timer >= timer_max){
 	timer ++
 
 }
+
+if(timer >= timer_max){
+	if(instance_exists(obj_enemy3) && !y < obj_enemy3.y){
+		if(place_meeting(x, y, obj_enemy3)){
+			if(!velocidade_vertical > 0){
+				if(instance_nearest(x, y, obj_enemy3).direction = 180){
+					velocidade_horizontal -= knockback
+				}
+				if(instance_nearest(x, y, obj_enemy3).direction = 0){
+					velocidade_horizontal += knockback
+				}
+				vida --
+				hit = 1
+				timer = 0
+			}
+		
+		}
+	}
+
+}else{
+	timer ++
+
+}
