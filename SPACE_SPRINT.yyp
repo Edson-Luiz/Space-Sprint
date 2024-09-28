@@ -82,12 +82,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-<<<<<<< HEAD
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
-=======
->>>>>>> 290bd84 ()
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
