@@ -23,3 +23,6 @@ if(obj_player.y < y){
 	}
 }
 
+
+
+

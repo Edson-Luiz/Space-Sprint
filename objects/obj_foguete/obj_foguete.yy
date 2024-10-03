@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tutorial",
+  "%Name":"obj_foguete",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tutorial",
+  "name":"obj_foguete",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_foguete",
+    "path":"sprites/spr_foguete/spr_foguete.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

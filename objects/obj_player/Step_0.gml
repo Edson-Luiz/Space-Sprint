@@ -78,6 +78,7 @@ if(timer >= timer_max){
 				vida --
 				hit = 1
 				timer = 0
+	
 			}
 		
 		}
@@ -134,3 +135,9 @@ if(timer >= timer_max){
 	timer ++
 
 }
+
+if (keyboard_check_pressed(vk_escape)) { // Verifica se a tecla R foi pressionada
+    room_goto(Room0); // Muda para Room1
+}
+
+

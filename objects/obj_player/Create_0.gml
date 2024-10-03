@@ -21,3 +21,6 @@ global.checkpoint_y = y
 window_set_fullscreen(true);
 
 
+
+
+
