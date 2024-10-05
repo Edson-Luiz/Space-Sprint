@@ -13,7 +13,8 @@
 
 ## Gameplay
 
-(Adicione o link ou o vídeo de gameplay aqui)
+[Assista ao vídeo de gameplay](https://youtu.be/k-bqz5B9xl0)
+
 
 ## Tecnologias
 
