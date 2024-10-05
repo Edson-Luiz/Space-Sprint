@@ -9,7 +9,7 @@
 1. Baixe o arquivo do Space Sprint [aqui](https://www.mediafire.com/file/0gwz4i0n0i6zxgj/SPACE_SPRINT.exe/file)
 2. Execute o arquivo como administrador.
 3. Siga os passos do instalador.
-4. Jogue! Use **A** e **D** para mover-se, e **W** para pular.
+4. Jogue! Use **A** e **D** para mover-se, e **W** para pular, e utilize **R** para reiniciar a fase e **ESC** para reiniciar o jogo.
 
 ## Gameplay
 
